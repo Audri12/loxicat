@@ -90,7 +90,15 @@ const AllMembersDraft = () => {
                 </button>
 
 
+               <div>
+               <img src={card.image} className='object-cover w-full h-full rounded shadow-lg hover:scale-125'></img>
+               <button className='group  p-6 px-16 m-9 -mt-24 text-center justify-center items-center bg-red-200 hover:text-white hover:bg-[#FF7906] transition transform hover:translate-y-6'>
+                    <h1 className='text-black group-hover:text-white '>{card.name}</h1>
+                    <p className='text-[#FF7906] group-hover:text-white  '>{card.designation}</p>
+                    
+                </button>
 
+               </div>
 
                 {/* <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
   <div class="flex items-center space-x-3">
